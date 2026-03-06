@@ -1,0 +1,55 @@
+version: "3"
+services:
+  selenium-hub:
+    image: selenium/hub:4.18.1
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+      - "4442:4442"
+      - "4443:4443"
+
+  chrome:
+    image: selenium/node-chrome:4.18.1
+    shm_size: 2gb
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=2  # <-- Isse 2 Chrome parallel chalenge ek container mein
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+
+  chrome_video:
+    image: selenium/video:latest
+    depends_on:
+      - chrome
+    environment:
+      - DISPLAY_CONTAINER_NAME=chrome
+      - SE_NODE_GRID_URL=http://selenium-hub:4444
+      - SE_VIDEO_FILE_NAME=chrome_test.mp4 # File name fix
+    volumes:
+      - /c/Users/winni/Videos/chrome:/videos
+
+  firefox:
+    image: selenium/node-firefox:4.18.1
+    shm_size: 2gb
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=2 # <-- Isse 2 Firefox parallel chalenge
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+
+  firefox_video:
+    image: selenium/video:latest
+    depends_on:
+      - firefox
+    environment:
+      - DISPLAY_CONTAINER_NAME=firefox
+      - SE_NODE_GRID_URL=http://selenium-hub:4444
+      - SE_VIDEO_FILE_NAME=firefox_test.mp4
+    volumes:
+      - /c/Users/winni/Videos/firefox:/videos
