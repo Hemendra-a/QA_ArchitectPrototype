@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="tests" name="Failed suite [Testing Baba Parallel Suite]" guice-stage="DEVELOPMENT" verbose="2">
-  <test thread-count="2" parallel="classes" name="Firefox Tests(failed)" verbose="2">
-    <parameter name="browser" value="Firefox"/>
+  <listeners>
+    <listener class-name="reporter.ExtentListeners"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="Chrome Tests(failed)" verbose="2">
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="test.Frame_test">
+      <class name="test.CheckBox_test">
         <methods>
-          <include name="clickonalertframebutton"/>
-          <include name="enterinchildframe2"/>
-          <include name="getLaunchtestingBaba"/>
+          <include name="mobileCheckBoxButton"/>
+          <include name="clickonElements"/>
+          <include name="LaptopCheckBoxButton"/>
+          <include name="clickonCheckBox"/>
+          <include name="DesktopCheckBoxButton"/>
           <include name="tearDown"/>
-          <include name="clickonframe"/>
-          <include name="enterinparentframe1"/>
           <include name="setUp"/>
+          <include name="getLaunchtestingBaba"/>
         </methods>
-      </class> <!-- test.Frame_test -->
+      </class> <!-- test.CheckBox_test -->
     </classes>
-  </test> <!-- Firefox Tests(failed) -->
+  </test> <!-- Chrome Tests(failed) -->
 </suite> <!-- Failed suite [Testing Baba Parallel Suite] -->

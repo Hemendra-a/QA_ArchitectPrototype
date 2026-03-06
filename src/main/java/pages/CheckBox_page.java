@@ -47,6 +47,7 @@ public class CheckBox_page extends BaseLib{
 	}
 
 	public void mobileCheckBoxButton() throws Exception {
+		waitForElement(frame, 10);
 		factory.DriverManager.getDriver().switchTo().frame(frame);
 		waitForElement(mobileCheckBoxButton, 10);
 		mobileCheckBoxButton.click();
@@ -57,6 +58,7 @@ public class CheckBox_page extends BaseLib{
 		factory.DriverManager.getDriver().switchTo().defaultContent();
 	}
 	public void LaptopCheckBoxButton() throws Exception {
+		waitForElement(frame, 10);
 		factory.DriverManager.getDriver().switchTo().frame(frame);
 		waitForElement(LaptopCheckBoxButton, 10);
 		LaptopCheckBoxButton.click();
@@ -67,6 +69,7 @@ public class CheckBox_page extends BaseLib{
 		factory.DriverManager.getDriver().switchTo().defaultContent();
 	}
 	public void DesktopCheckBoxButton() throws Exception {
+		waitForElement(frame, 10);
 		factory.DriverManager.getDriver().switchTo().frame(frame);
 		waitForElement(DesktopCheckBoxButton, 10);
 		DesktopCheckBoxButton.click();
