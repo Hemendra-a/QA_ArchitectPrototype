@@ -42,6 +42,7 @@ public class Login extends BaseLib{
     }
 
     public void clickonPractice() throws Exception {
+    	sleep(5);
     	waitForElement(practicebutton, 50);
         practicebutton.click();
     }
