@@ -4,15 +4,17 @@
   <test thread-count="2" parallel="classes" name="Firefox Tests(failed)" verbose="2">
     <parameter name="browser" value="Firefox"/>
     <classes>
-      <class name="test.Alert_test">
+      <class name="test.Frame_test">
         <methods>
-          <include name="clickonmypromt"/>
-          <include name="clickmeafter5sec"/>
-          <include name="clickonmyconfirm"/>
+          <include name="clickonalertframebutton"/>
+          <include name="enterinchildframe2"/>
+          <include name="getLaunchtestingBaba"/>
           <include name="tearDown"/>
+          <include name="clickonframe"/>
+          <include name="enterinparentframe1"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- test.Alert_test -->
+      </class> <!-- test.Frame_test -->
     </classes>
   </test> <!-- Firefox Tests(failed) -->
 </suite> <!-- Failed suite [Testing Baba Parallel Suite] -->

@@ -16,7 +16,7 @@
         <parameter name="browser" value="Firefox"/>
         <classes>
             <class name="test.RadioButton_test"/>
-            <class name="test.Alert_test"/>
+            <class name="test.Frame_test"/>
         </classes>
     </test>
 

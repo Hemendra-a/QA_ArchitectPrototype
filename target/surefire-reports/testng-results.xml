@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-07T00:03:37 IST" name="Testing Baba Parallel Suite" finished-at="2026-03-07T00:04:42 IST" duration-ms="64776">
+    <groups>
+    </groups>
+    <test started-at="2026-03-07T00:03:37 IST" name="Chrome Tests" finished-at="2026-03-07T00:04:08 IST" duration-ms="31090">
+      <class name="test.CheckBox_test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.CheckBox_test@3aa078fd]" started-at="2026-03-07T00:03:37 IST" name="setUp" finished-at="2026-03-07T00:03:44 IST" duration-ms="7494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getLaunchtestingBaba()[pri:0, instance:test.CheckBox_test@3aa078fd]" started-at="2026-03-07T00:03:44 IST" name="getLaunchtestingBaba" finished-at="2026-03-07T00:04:01 IST" duration-ms="16381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLaunchtestingBaba -->
+        <test-method signature="clickonElements()[pri:1, instance:test.CheckBox_test@3aa078fd]" started-at="2026-03-07T00:04:01 IST" name="clickonElements" finished-at="2026-03-07T00:04:01 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonElements -->
+        <test-method signature="clickonCheckBox()[pri:2, instance:test.CheckBox_test@3aa078fd]" started-at="2026-03-07T00:04:01 IST" name="clickonCheckBox" finished-at="2026-03-07T00:04:02 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonCheckBox -->
+        <test-method signature="mobileCheckBoxButton()[pri:3, instance:test.CheckBox_test@3aa078fd]" started-at="2026-03-07T00:04:02 IST" name="mobileCheckBoxButton" finished-at="2026-03-07T00:04:02 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileCheckBoxButton -->
+        <test-method signature="LaptopCheckBoxButton()[pri:4, instance:test.CheckBox_test@3aa078fd]" started-at="2026-03-07T00:04:02 IST" name="LaptopCheckBoxButton" finished-at="2026-03-07T00:04:03 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaptopCheckBoxButton -->
+        <test-method signature="DesktopCheckBoxButton()[pri:5, instance:test.CheckBox_test@3aa078fd]" started-at="2026-03-07T00:04:03 IST" name="DesktopCheckBoxButton" finished-at="2026-03-07T00:04:03 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DesktopCheckBoxButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckBox_test@3aa078fd]" started-at="2026-03-07T00:04:03 IST" name="tearDown" finished-at="2026-03-07T00:04:08 IST" duration-ms="5157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.CheckBox_test -->
+      <class name="test.Logintest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.Logintest@6933b6c6]" started-at="2026-03-07T00:03:37 IST" name="setUp" finished-at="2026-03-07T00:03:42 IST" duration-ms="5005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle()[pri:0, instance:test.Logintest@6933b6c6]" started-at="2026-03-07T00:03:42 IST" name="getTitle" finished-at="2026-03-07T00:03:42 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method signature="clickonCloseButton()[pri:1, instance:test.Logintest@6933b6c6]" started-at="2026-03-07T00:03:42 IST" name="clickonCloseButton" finished-at="2026-03-07T00:03:47 IST" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonCloseButton -->
+        <test-method signature="clickonpractice()[pri:2, instance:test.Logintest@6933b6c6]" started-at="2026-03-07T00:03:47 IST" name="clickonpractice" finished-at="2026-03-07T00:03:51 IST" duration-ms="3748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonpractice -->
+        <test-method signature="clickonElements()[pri:3, instance:test.Logintest@6933b6c6]" started-at="2026-03-07T00:03:51 IST" name="clickonElements" finished-at="2026-03-07T00:03:51 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Logintest@6933b6c6]" started-at="2026-03-07T00:03:51 IST" name="tearDown" finished-at="2026-03-07T00:03:56 IST" duration-ms="5107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Logintest -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2026-03-07T00:04:08 IST" name="Firefox Tests" finished-at="2026-03-07T00:04:42 IST" duration-ms="33632">
+      <class name="test.Frame_test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.Frame_test@24105dc5]" started-at="2026-03-07T00:04:08 IST" name="setUp" finished-at="2026-03-07T00:04:15 IST" duration-ms="7071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getLaunchtestingBaba()[pri:0, instance:test.Frame_test@24105dc5]" started-at="2026-03-07T00:04:15 IST" name="getLaunchtestingBaba" finished-at="2026-03-07T00:04:25 IST" duration-ms="9488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLaunchtestingBaba -->
+        <test-method signature="clickonalertframebutton()[pri:1, instance:test.Frame_test@24105dc5]" started-at="2026-03-07T00:04:25 IST" name="clickonalertframebutton" finished-at="2026-03-07T00:04:25 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonalertframebutton -->
+        <test-method signature="clickonframe()[pri:2, instance:test.Frame_test@24105dc5]" started-at="2026-03-07T00:04:25 IST" name="clickonframe" finished-at="2026-03-07T00:04:25 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonframe -->
+        <test-method signature="enterinparentframe1()[pri:3, instance:test.Frame_test@24105dc5]" started-at="2026-03-07T00:04:25 IST" name="enterinparentframe1" finished-at="2026-03-07T00:04:25 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterinparentframe1 -->
+        <test-method signature="enterinchildframe2()[pri:4, instance:test.Frame_test@24105dc5]" started-at="2026-03-07T00:04:25 IST" name="enterinchildframe2" finished-at="2026-03-07T00:04:25 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterinchildframe2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Frame_test@24105dc5]" started-at="2026-03-07T00:04:25 IST" name="tearDown" finished-at="2026-03-07T00:04:32 IST" duration-ms="6176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Frame_test -->
+      <class name="test.RadioButton_test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:test.RadioButton_test@2438dcd]" started-at="2026-03-07T00:04:08 IST" name="setUp" finished-at="2026-03-07T00:04:15 IST" duration-ms="6728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getLaunchtestingBaba()[pri:0, instance:test.RadioButton_test@2438dcd]" started-at="2026-03-07T00:04:15 IST" name="getLaunchtestingBaba" finished-at="2026-03-07T00:04:24 IST" duration-ms="9231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLaunchtestingBaba -->
+        <test-method signature="clickonElements()[pri:1, instance:test.RadioButton_test@2438dcd]" started-at="2026-03-07T00:04:24 IST" name="clickonElements" finished-at="2026-03-07T00:04:26 IST" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonElements -->
+        <test-method signature="clickonRadioButton()[pri:2, instance:test.RadioButton_test@2438dcd]" started-at="2026-03-07T00:04:26 IST" name="clickonRadioButton" finished-at="2026-03-07T00:04:29 IST" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonRadioButton -->
+        <test-method signature="clickonYesButton()[pri:3, instance:test.RadioButton_test@2438dcd]" started-at="2026-03-07T00:04:29 IST" name="clickonYesButton" finished-at="2026-03-07T00:04:31 IST" duration-ms="2259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonYesButton -->
+        <test-method signature="clickonImpressiveButton()[pri:4, instance:test.RadioButton_test@2438dcd]" started-at="2026-03-07T00:04:31 IST" name="clickonImpressiveButton" finished-at="2026-03-07T00:04:33 IST" duration-ms="2291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonImpressiveButton -->
+        <test-method signature="clickonNoButton()[pri:5, instance:test.RadioButton_test@2438dcd]" started-at="2026-03-07T00:04:33 IST" name="clickonNoButton" finished-at="2026-03-07T00:04:35 IST" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonNoButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.RadioButton_test@2438dcd]" started-at="2026-03-07T00:04:35 IST" name="tearDown" finished-at="2026-03-07T00:04:42 IST" duration-ms="6301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.RadioButton_test -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- Testing Baba Parallel Suite -->
+</testng-results>

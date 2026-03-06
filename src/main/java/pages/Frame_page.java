@@ -25,19 +25,23 @@ public class Frame_page extends BaseLib {
 	@FindBy(xpath="/html/body/h1")
 	private WebElement gettext2;
 	
-	public void clickonframe() {
+	public void clickonframe() throws Exception {
+		waitForElement(clickonframe, 50);
 		clickonframe.click();
 	}
-	public void clickonalertframebutton() {
+	public void clickonalertframebutton() throws Exception {
+		waitForElement(alertframebutton, 50);
 		alertframebutton.click();
 	}
-	public void enterinparentframe1() {
+	public void enterinparentframe1() throws Exception {
+		waitForElement(frame, 50);
 		factory.DriverManager.getDriver().switchTo().frame(frame);
 		String text=gettext.getText();
 		System.out.println( "Text "+text);
 		factory.DriverManager.getDriver().switchTo().defaultContent();
 	}
-	public void enterinchildframe2() {
+	public void enterinchildframe2() throws Exception {
+		waitForElement(frame2, 50);
 		factory.DriverManager.getDriver().switchTo().frame(frame2);
 		String text2=gettext2.getText();
 		System.out.println( "Text2 "+text2);

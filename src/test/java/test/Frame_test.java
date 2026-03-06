@@ -27,22 +27,22 @@ public class Frame_test extends BaseLib {
 	  }
 	 
 	 @Test(priority=1)
-	 public void clickonalertframebutton() {
+	 public void clickonalertframebutton() throws Exception {
 		
 		 ob.clickonalertframebutton();
 	 }
 	 @Test(priority=2)
-	 public void clickonframe() {
+	 public void clickonframe() throws Exception {
 		
 		 ob.clickonframe();
 	 }
 	 @Test(priority=3)
-	 public void enterinparentframe1(){
+	 public void enterinparentframe1() throws Exception{
 		
 		 ob.enterinparentframe1();
 	 }
 	 @Test(priority=4)
-	 public void enterinchildframe2(){
+	 public void enterinchildframe2() throws Exception{
 		
 		 ob.enterinchildframe2();
 	 }

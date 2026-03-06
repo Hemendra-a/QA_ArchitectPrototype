@@ -2,7 +2,6 @@ pages\Alert_page.class
 pages\Frame_page.class
 utils\DynamicLogger.class
 utils\WebUtils.class
-utils\ScreenshotUtility.class
 Reader\MyJsonReader.class
 pages\browserwindows_page.class
 utils\WebUtils$1.class
